@@ -8,7 +8,7 @@ export default function Navbar() {
         <header>
             <div className='navbar'>
                 
-                    <Link to="/home" >Home</Link >
+                    <Link to="/" >Home</Link >
                     <Link  to="/about">About</Link >
                 
                
