@@ -1,0 +1,23 @@
+.navbar {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 25px;
+    background-color: #333;
+    height: 50px;
+    width:100%;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .navbar a:hover {
+    background-color: rgb(81, 77, 77);
+  }
