@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Navbar.css"
-import {Link} from "react-router-dom"
+import {NavLink} from "react-router-dom"
 
 export default function Navbar() {
     return (
@@ -8,8 +8,16 @@ export default function Navbar() {
         <header>
             <div className='navbar'>
                 
-                    <Link to="#/" >Home</Link >
-                    <Link  to="#/about">About</Link >
+                    <NavLink to="/" style={({ isActive }) => ({
+                                color: isActive
+                                    ? "greenyellow"
+                                    : "white",
+                            })}>Home</NavLink >
+                    <NavLink  to="/about" style={({ isActive }) => ({
+                                color: isActive
+                                    ? "greenyellow"
+                                    : "white",
+                            })}>About</NavLink >
                 
                
             </div>
