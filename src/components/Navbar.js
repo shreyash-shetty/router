@@ -8,16 +8,9 @@ export default function Navbar() {
         <header>
             <div className='navbar'>
                 
-                    <NavLink to="/" style={({ isActive }) => ({
-                                color: isActive
-                                    ? "greenyellow"
-                                    : "white",
-                            })}>Home</NavLink >
-                    <NavLink  to="/about" style={({ isActive }) => ({
-                                color: isActive
-                                    ? "greenyellow"
-                                    : "white",
-                            })}>About</NavLink >
+                    <NavLink to="/" >Home</NavLink >
+                    <NavLink  to="/about" >About</NavLink >  
+                    {/* style={({ isActive }) => ({ color: isActive? "greenyellow" : "white", })} */}
                 
                
             </div>
